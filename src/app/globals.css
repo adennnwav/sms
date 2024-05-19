@@ -43,3 +43,31 @@
 .btn-toggle-nav a:focus {
     background-color: var(--bs-tertiary-bg);
 }
+
+.circle {
+	display: inline-block;
+	background-color: #20c997;
+	border-radius: 50%;
+}
+  
+.circle-inner {
+	color: white;
+	display: table-cell;
+	vertical-align: middle; 
+	text-align: center;
+	text-decoration: none;
+	height: 42px;
+	width: 42px;  
+	font-size: 18px;
+}
+  
+.circle-inner-lg {
+	color: white;
+	display: table-cell;
+	vertical-align: middle; 
+	text-align: center;
+	text-decoration: none;
+	height: 72px;
+	width: 72px;  
+	font-size: 36px;
+}

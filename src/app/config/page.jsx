@@ -19,7 +19,8 @@ const page = () => {
                                 {/* <h4 className="fw-light text-center mb-3 mt-2">Aiden O'Neal</h4> */}
                                 <div className="d-flex gap-3">
                                     <GridCard title="Internal Users" text="Manage internal system users and assign application-specific permission rules." link="/config/users/internal" target="_self" cta="Manage"/>
-                                    <GridCard title="External Users" text="Manage external business users who can access the B2B portal." link="/config/users/external" target="_self" cta="Manage"/>
+                                    <GridCard title="External Users" text="Manage external business vendor and customer user profiles including B2B portal access." link="/config/users/external" target="_self" cta="Manage"/>
+                                    <GridCard title="Applications" text="Manage overall system application visibility, initialization, and access rules." link="/config/apps" target="_self" cta="Manage"/>
                                 </div>
                             </div>
                         </div>

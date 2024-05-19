@@ -27,6 +27,7 @@ const Sidebar = () => {
 									<li><a href="/ais/entries" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Entries</a></li>
 									<li><a href="/ais/parties" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Parties</a></li>
 									<li><a href="/ais/inventory" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Inventory</a></li>
+									<li><a href="/ais/billing" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Billing Gateway</a></li>
 									<li><a href="/ais/analytics" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Analytics</a></li>
 									<li><a href="/ais/import" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Import Wizard</a></li>
 									<li><a href="/ais/config" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Configuration</a></li>
@@ -42,6 +43,7 @@ const Sidebar = () => {
 									<li><a href="/config" className="link-body-emphasis d-inline-flex text-decoration-none rounded">System Configuration Index</a></li>
 									<li><a href="/config/users/internal" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Internal Users</a></li>
 									<li><a href="/config/users/external" className="link-body-emphasis d-inline-flex text-decoration-none rounded">External Users</a></li>
+									<li><a href="/config/apps" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Applications</a></li>
 								</ul>
 							</div>
 						</li>

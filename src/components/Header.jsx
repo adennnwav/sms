@@ -9,7 +9,7 @@ const Header = (props) => {
 					<path d="M2 12.161V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13v-.839c-.457.432-1.004.751-1.49.972-1.232.56-2.828.867-4.51.867s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972"/>        </svg>
 				<small>{props.statusText}</small>
 			</div>
-			<div className="p-3 border-bottom bg-body">
+			<div className="px-3 py-2 border-bottom bg-body">
 				<div className="container-fluid d-flex flex-wrap justify-content-center  ">
 					<a href="/" className="d-flex align-items-center gap-3 mb-3 mb-md-0 me-md-auto text-body text-decoration-none custom-hover-zoom">
 						<img src="/logo.png" width="auto" height="42" alt="" className="d-lg-none"/>
