@@ -22,7 +22,7 @@ const Sidebar = () => {
 							</button>
 							<div className="collapse" id="dashboard-collapse">
 								<ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-								<li><a href="/ais" className="link-body-emphasis d-inline-flex text-decoration-none rounded">AIS Index</a></li>
+									<li><a href="/ais" className="link-body-emphasis d-inline-flex text-decoration-none rounded">AIS Index</a></li>
 									<li><a href="/ais/coa" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Chart of Accounts</a></li>
 									<li><a href="/ais/entries" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Entries</a></li>
 									<li><a href="/ais/parties" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Parties</a></li>

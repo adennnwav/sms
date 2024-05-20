@@ -1,6 +1,6 @@
 const PageTitle = (props) => {
 	return (
-		<div className="bg-primary p-3 border-bottom">
+		<div className="bg-primary p-3 border-bottom mb-2">
 			<h3 className="m-0 text-light fw-light d-flex align-items-center gap-2">
 				<a href={props.return} className="text-light d-flex align-self-center ">
 					<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-chevron-left" viewBox="0 0 16 16">

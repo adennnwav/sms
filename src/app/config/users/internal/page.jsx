@@ -10,12 +10,20 @@ const page = () => {
             <div className="min-vh-100 d-flex flex-column bg-body-tertiary">
                 <Header statusType="success" statusText="App Running"/>  
                 <div className="d-flex flex-grow-1">
-                    <Sidebar/>
+                    {/* <Sidebar/> */}
                     <div className="d-flex flex-column flex-grow-1">
                         <PageTitle title="Internal Users" return="/config"/>
                         <div className="flex-grow-1">
                             {/* <Message type="success" text="Your request was successfully processed." show="true"/> */}
-                            <div className="px-3 py-3">
+                            <div className="px-4">
+                                <div className="d-flex gap-2 mb-2">
+                                    <a href="" className="btn btn-secondary rounded-0">
+                                        Add User
+                                    </a>
+                                    <a href="" className="btn btn-secondary rounded-0">
+                                        Export CSV
+                                    </a>
+                                </div>
                                 <table className="table table-striped" id="table">
                                     <thead>
                                         <tr>
@@ -87,7 +95,7 @@ const page = () => {
                                             </div>
                                         </td>
                                         <td className="py-4">
-                                            <div className="py-1">
+                                            <div className="py-1 d-block text-truncate">
                                                 2024-01-01T16:03:00.000Z
                                             </div>
                                         </td>

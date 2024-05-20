@@ -11,9 +11,9 @@ const page = () => {
             <div className="min-vh-100 d-flex flex-column bg-body-tertiary">
                 <Header statusType="success" statusText="App Running"/>  
                 <div className="d-flex flex-grow-1">
-                    <Sidebar/>
+                    {/* <Sidebar/> */}
                     <div className="d-flex flex-column flex-grow-1">
-                        <div className="flex-grow-1">
+                        <div className="container flex-grow-1">
                             {/* <Message type="success" text="Your request was successfully processed." show="true"/> */}
                             <div className="px-3 py-3">
                                 <h2 className="fw-light"><Greeting/>, Aiden</h2>
