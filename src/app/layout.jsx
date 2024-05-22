@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import BootstrapClient from "@/components/BootstrapClient";
-import ColorSwitcher from "@/components/ColorSwitcher";
 import "./globals.css"
 
 export const metadata = {
@@ -14,7 +13,6 @@ const RootLayout = ({children}) => {
         <body>
             {children}
             <BootstrapClient/>
-            <ColorSwitcher/>
         </body>
     </html>
   )

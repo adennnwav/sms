@@ -1,5 +1,16 @@
-p, a.btn, li, button.btn, td, th {
+p, a.btn, li, button.btn, td, th, .form-control {
     font-size: 0.875em;
+}
+
+.sms-td-center {
+    vertical-align: middle
+}
+
+.border-top-start-1 {
+    border-top-left-radius: 0.25rem;
+}
+.border-top-end-1 {
+    border-top-right-radius: 0.25rem;
 }
 
 .sms-sidebar {
