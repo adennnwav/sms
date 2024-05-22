@@ -2,7 +2,7 @@ import pjson from "../../package.json"
 
 const Header = (props) => {
 	return (
-		<>
+		<div className="shadow-sm zindex-top">
 			<div className={`container-fluid text-bg-${props.statusType} py-1 px-4 d-flex align-items-center`}>
 				<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" className="bi bi-database me-2" viewBox="0 0 16 16">
 					<path d="M3.904 1.777C4.978 1.289 6.427 1 8 1s3.022.289 4.096.777C13.125 2.245 14 2.993 14 4s-.875 1.755-1.904 2.223C11.022 6.711 9.573 7 8 7s-3.022-.289-4.096-.777C2.875 5.755 2 5.007 2 4s.875-1.755 1.904-2.223"/>
@@ -122,7 +122,7 @@ const Header = (props) => {
 					</div>
 				</div>
 			</div>
-			<div className="px-4 py-2 border-bottom bg-body d-flex justify-content-center">
+			<div className="px-4 py-2 border-bottom bg-body-tertiary d-flex justify-content-center">
 				<input className="form-control form-control-sm rounded-0 sms-search" type="text" placeholder="Search..." aria-label=".form-control-sm example"/>
 				<button type="submit" className="btn border border-start-0 rounded-0 d-flex align-items-center px-2">
 					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">
@@ -130,7 +130,7 @@ const Header = (props) => {
 					</svg>
 				</button>
 			</div>
-		</>
+		</div>
 	)
 }
 

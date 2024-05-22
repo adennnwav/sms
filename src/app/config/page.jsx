@@ -1,4 +1,5 @@
 import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 import Sidebar from "@/components/Sidebar"
 import PageTitle from "@/components/PageTitle"
 import GridCard from "@/components/GridCard"
@@ -16,7 +17,7 @@ const page = () => {
                         <div className="flex-grow-1">
                             {/* <Message type="success" text="Your request was successfully processed." show="true"/> */}
                             <div className="container px-3 py-2">
-                                {/* <h4 className="fw-light text-center mb-3 mt-2">Aiden O'Neal</h4> */}
+                                <h4 className="fw-light text-center mb-3 mt-2">Aiden O'Neal</h4>
                                 <div className="d-flex gap-3">
                                     <GridCard title="Internal Users" text="Manage internal system users and assign application-specific permission rules." link="/config/users/internal" target="_self" cta="Manage"/>
                                     <GridCard title="External Users" text="Manage external business vendor and customer user profiles including B2B portal access." link="/config/users/external" target="_self" cta="Manage"/>
@@ -26,6 +27,7 @@ const page = () => {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </>
     )

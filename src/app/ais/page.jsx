@@ -1,4 +1,5 @@
 import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 import Sidebar from "@/components/Sidebar"
 import PageTitle from "@/components/PageTitle"
 import GridCard from "@/components/GridCard"
@@ -16,7 +17,7 @@ const page = () => {
                         <div className="flex-grow-1">
                             {/* <Message type="success" text="Your request was successfully processed." show="true"/> */}
                             <div className="container px-3 py-2">
-                                {/* <h4 className="fw-light text-center mb-3 mt-2">Aiden O'Neal</h4> */}
+                                <h4 className="fw-light text-center mb-3 mt-2">Aiden O'Neal</h4>
                                 <div className="d-flex gap-3">
                                     <GridCard title="Chart of Accounts" text="View and create financial asset, liability, equity, revenue, and expense accounts." link="/ais/coa" target="_self" cta="Manage"/>
                                     <GridCard title="Entries" text="Create journal entries and manage existing transaction records for all accounts." link="/ais/entries" target="_self" cta="Manage"/>
@@ -36,6 +37,7 @@ const page = () => {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </>
     )

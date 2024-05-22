@@ -1,4 +1,5 @@
 import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 import Sidebar from "@/components/Sidebar"
 import PageTitle from "@/components/PageTitle"
 import Message from "@/components/Message"
@@ -106,6 +107,7 @@ const page = () => {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </>
     )

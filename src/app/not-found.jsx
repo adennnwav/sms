@@ -1,6 +1,7 @@
 import Header from "@/components/Header"
 import Message from "@/components/Message"
 import GetTime from "@/components/GetTime"
+import Footer from "@/components/Footer"
 
 const NotFound = () => {
 	return (
@@ -24,6 +25,7 @@ const NotFound = () => {
 					</div>
 				</div>
 			</div>
+			<Footer/>
 		</div>
 	)
 }

@@ -10,7 +10,7 @@ export const metadata = {
 
 const RootLayout = ({children}) => {
   return (
-    <html lang="en" data-bs-theme="dark">
+    <html lang="en" data-bs-theme="light">
         <body>
             {children}
             <BootstrapClient/>
