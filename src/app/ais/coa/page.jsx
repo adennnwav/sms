@@ -14,8 +14,26 @@ const page = () => {
                     <div className="d-flex flex-column flex-grow-1">
                         <PageTitle title="Chart of Accounts" return="/ais"/>
                         <div className="flex-grow-1">
-                            <div className="container px-3 py-0">
+                            <div className="px-4 py-0">
                                 {/* <Message type="success" text="Your request was successfully processed." show="true"/> */}
+                                <div className="mb-2 d-flex gap-2">
+                                    <a href="" className="text-decoration-none text-secondary">
+                                        <div className="border bg-body rounded-1 py-1 px-2 d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-plus-lg" viewBox="0 0 16 16">
+                                                <path d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                                            </svg>
+                                            <p className="m-0">Add Record</p>
+                                        </div>
+                                    </a>
+                                    <a href="" className="text-decoration-none text-secondary">
+                                        <div className="border bg-body rounded-1 py-1 px-2 d-flex align-items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-plus-lg" viewBox="0 0 16 16">
+                                                <path d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                                            </svg>
+                                            <p className="m-0">Add Record</p>
+                                        </div>
+                                    </a>
+                                </div>
                                 <div className="border bg-body rounded-1">
                                     <table className="table">
                                         <thead>
@@ -25,11 +43,46 @@ const page = () => {
                                                 </th>
                                                 <th className="col-1 text-secondary bg-body-secondary fw-normal border-end text-end">#</th>
                                                 <th className="col-2 text-secondary bg-body-secondary fw-normal border-end">Actions</th>
-                                                <th className="col-3 text-secondary bg-body-secondary fw-normal border-end">Company</th>
-                                                <th className="col-1 text-secondary bg-body-secondary fw-normal border-end text-end">Number</th>
-                                                <th className="col-3 text-secondary bg-body-secondary fw-normal border-end">Name</th>
-                                                <th className="col-1 text-secondary bg-body-secondary fw-normal border-end">Currency</th>
-                                                <th className="col-1 text-secondary bg-body-secondary fw-normal border-top-end-1 text-end">Balance</th>
+                                                <th className="col-3 text-secondary bg-body-secondary fw-normal border-end">
+                                                    <div className="d-flex align-items-center justify-content-between">
+                                                        Company
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-expand" viewBox="0 0 16 16">
+                                                            <path d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
+                                                        </svg>
+                                                    </div>
+                                                </th>
+                                                <th className="col-1 text-secondary bg-body-secondary fw-normal border-end text-end">
+                                                    <div className="d-flex align-items-center justify-content-end gap-1">
+                                                        Number
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-expand" viewBox="0 0 16 16">
+                                                            <path d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
+                                                        </svg>
+                                                    </div>
+                                                </th>
+                                                <th className="col-3 text-secondary bg-body-secondary fw-normal border-end">
+                                                    <div className="d-flex align-items-center justify-content-between">
+                                                        Name
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-expand" viewBox="0 0 16 16">
+                                                            <path d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
+                                                        </svg>
+                                                    </div>
+                                                </th>
+                                                <th className="col-1 text-secondary bg-body-secondary fw-normal border-end">
+                                                    <div className="d-flex align-items-center justify-content-between">
+                                                        Currency
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-expand" viewBox="0 0 16 16">
+                                                            <path d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
+                                                        </svg>
+                                                    </div>
+                                                </th>
+                                                <th className="col-1 text-secondary bg-body-secondary fw-normal border-top-end-1 text-end">
+                                                    <div className="d-flex align-items-center justify-content-end gap-1">
+                                                        Balance
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-expand" viewBox="0 0 16 16">
+                                                            <path d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
+                                                        </svg>
+                                                    </div>
+                                                </th>
                                             </tr>
                                         </thead>
                                         <tbody>
