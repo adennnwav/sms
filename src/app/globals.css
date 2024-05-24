@@ -1,4 +1,4 @@
-p, a.btn, li, button.btn, td, th, .form-control {
+p, a, a.btn, li, button.btn, td, th, .form-control, label, .form-select {
     font-size: 0.875em;
 }
 

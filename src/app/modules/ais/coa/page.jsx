@@ -17,21 +17,11 @@ const page = () => {
                             <div className="px-4 py-0">
                                 {/* <Message type="success" text="Your request was successfully processed." show="true"/> */}
                                 <div className="mb-2 d-flex gap-2">
-                                    <a href="" className="text-decoration-none text-secondary">
-                                        <div className="border bg-body rounded-1 py-1 px-2 d-flex align-items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-plus-lg" viewBox="0 0 16 16">
-                                                <path d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
-                                            </svg>
-                                            <p className="m-0">Add Record</p>
-                                        </div>
-                                    </a>
-                                    <a href="" className="text-decoration-none text-secondary">
-                                        <div className="border bg-body rounded-1 py-1 px-2 d-flex align-items-center gap-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-plus-lg" viewBox="0 0 16 16">
-                                                <path d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
-                                            </svg>
-                                            <p className="m-0">Add Record</p>
-                                        </div>
+                                    <a href="" className="btn btn-primary rounded-1 d-flex align-items-center gap-1 py-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-plus-lg" viewBox="0 0 16 16">
+                                            <path d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                                        </svg>
+                                        <p className="m-0">Add Record</p>
                                     </a>
                                 </div>
                                 <div className="border bg-body rounded-1">

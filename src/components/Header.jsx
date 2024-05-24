@@ -71,15 +71,15 @@ const Header = (props) => {
 										<div id="2" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
 											<div className="accordion-body">
 												<ul className="list-unstyled fw-normal">
-													<li><a href="/ais">AIS Index</a></li>
-													<li><a href="/ais/coa">Chart of Accounts</a></li>
-													<li><a href="/ais/entries">Entries</a></li>
-													<li><a href="/ais/parties">Parties</a></li>
-													<li><a href="/ais/inventory">Inventory</a></li>
-													<li><a href="/ais/billing">Billing Gateway</a></li>
-													<li><a href="/ais/analytics">Analytics</a></li>
-													<li><a href="/ais/import">Import Wizard</a></li>
-													<li><a href="/ais/config">Configuration</a></li>
+													<li><a href="/modules/ais">AIS Index</a></li>
+													<li><a href="/modules/ais/coa">Chart of Accounts</a></li>
+													<li><a href="/modules/ais/entries">Entries</a></li>
+													<li><a href="/modules/ais/parties">Parties</a></li>
+													<li><a href="/modules/ais/inventory">Inventory</a></li>
+													<li><a href="/modules/ais/billing">Billing Gateway</a></li>
+													<li><a href="/modules/ais/analytics">Analytics</a></li>
+													<li><a href="/modules/ais/import">Import Wizard</a></li>
+													<li><a href="/modules/ais/config">Configuration</a></li>
 												</ul>
 											</div>
 										</div>
@@ -99,7 +99,7 @@ const Header = (props) => {
 													<li><a href="/config">Config Index</a></li>
 													<li><a href="/config/users/internal">Internal Users</a></li>
 													<li><a href="/config/users/external">External Users</a></li>
-													<li><a href="/config/apps">Applications</a></li>
+													<li><a href="/config/modules">Modules</a></li>
 												</ul>
 											</div>
 										</div>
